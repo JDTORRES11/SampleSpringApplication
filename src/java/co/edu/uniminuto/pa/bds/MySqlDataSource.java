@@ -5,11 +5,12 @@
  */
 package co.edu.uniminuto.pa.bds;
 
-import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.postgresql.ds.PGPoolingDataSource;
 
 /**
  *
@@ -17,15 +18,15 @@ import java.util.logging.Logger;
  */
 public class MySqlDataSource {
     private static MySqlDataSource miMySqlDS = null;
-    private static MysqlDataSource ds = null;
+    private static PGPoolingDataSource ds = null;
     
     private MySqlDataSource(){
-        ds = new MysqlDataSource();
-        ds.setServerName("localhost");
-        ds.setPortNumber(3306);
-        ds.setDatabaseName("prueba1");
-        ds.setUser("root");
-        ds.setPassword("root");        
+        ds = new PGPoolingDataSource();
+        ds.setServerName("ec2-23-23-195-205.compute-1.amazonaws.com");
+        ds.setPortNumber(5432);
+        ds.setDatabaseName("dvj5f149di580");
+        ds.setUser("tlyxlxvjejnhlf");
+        ds.setPassword("f7f81b051e3cde9edd04563c90897003f52a7050c514fcc31bb71985f49cb79a");        
     }
     
     public static Connection getConexionBD()

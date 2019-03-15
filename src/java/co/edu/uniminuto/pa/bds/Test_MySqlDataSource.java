@@ -7,6 +7,7 @@ package co.edu.uniminuto.pa.bds;
 
 import java.sql.*;
 import javax.sql.*;
+import org.postgresql.ds.PGPoolingDataSource;
 public class Test_MySqlDataSource {
     
   public static void main(String [] args) {
@@ -14,13 +15,13 @@ public class Test_MySqlDataSource {
     try {
 
 // Setting up the DataSource object
-      com.mysql.jdbc.jdbc2.optional.MysqlDataSource ds 
-        = new com.mysql.jdbc.jdbc2.optional.MysqlDataSource();
-      ds.setServerName("localhost");
-      ds.setPortNumber(3306);
-      ds.setDatabaseName("test");
-      ds.setUser("root");
-      ds.setPassword("root");
+         PGPoolingDataSource ds 
+        = new PGPoolingDataSource();
+      ds.setServerName("ec2-23-23-195-205.compute-1.amazonaws.com");
+        ds.setPortNumber(5432);
+        ds.setDatabaseName("dvj5f149di580");
+        ds.setUser("tlyxlxvjejnhlf");
+        ds.setPassword("f7f81b051e3cde9edd04563c90897003f52a7050c514fcc31bb71985f49cb79a");
 
 // Getting a connection object
       con = ds.getConnection();
