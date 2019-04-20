@@ -1,115 +1,140 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<!DOCTYPE html>
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<title>Hosting City a Hosting Category Flat Bootstrap responsive Website Template | Registration :: w3layouts</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Hosting City Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Consultar Persona</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-	<!-- header-top -->
-	<div class="header-top">
-		<div class="container">
-			<div class="w3layouts-address">
-				<ul>
-					<li><i class="fa fa-mobile" aria-hidden="true"></i> +11 222 333 4444</li>
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com"> mail@example.com</a></li>
-				</ul>
-			</div>
-			<div class="agileinfo-social-grids">
-				<ul>
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-rss"></i></a></li>
-					<li><a href="#"><i class="fa fa-vk"></i></a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<!-- //header-top -->
-	<!-- header -->
-	<div class="header">
-			<div class="container">
-				<nav class="navbar navbar-default">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					  </button>
-						<div class="w3layouts-logo">
-							<h1><a href="index.html">Hosting <span>City</span></a></h1>
-						</div>
-					</div>
 
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-						<nav>
-							<ul class="nav navbar-nav">
-								<li><a href="helloworld.htm" class="hvr-sweep-to-bottom">Home</a></li>
-								<li><a href="about.html" class="hvr-sweep-to-bottom">About</a></li>
-								<li><a href="plans.html" class="hvr-sweep-to-bottom">Plans</a></li>
-								<li class="active"><a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persona<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-										<li><a class="hvr-sweep-to-bottom" href="personaCrear.htm">Crear</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="personaConsultar.htm">Consultar</a></li>
-										<li><a class="hvr-sweep-to-bottom" href="personaEditar.htm">Editar</a></li>
-									</ul>
-								</li>
-								<li><a href="blog.html" class="hvr-sweep-to-bottom">Blog</a></li>
-								<li><a href="mail.html" class="hvr-sweep-to-bottom">Mail Us</a></li>
-							</ul>
-						</nav>
-					</div>
-					<!-- /.navbar-collapse -->
-				</nav>
-			</div>
-	</div>
-	<!-- //header -->
-	<!-- about-heading -->
-	<div class="about-heading">
-		<h2>Consultar <span>Persona</span></h2>
-	</div>
-	<!-- //about-heading -->
-	<div class="registration">
+
+<div class="site-main">
+    
+
+    <!--================ Left Area =================-->
+    <div class="right_fix_bar">
+        <div class="d-flex">
+
+            <div class="social_area">
+                <h4>
+                    <a href="#">Instagram</a>
+                </h4>
+                <h4>
+                    <a class="twitter" href="#">Twitter</a>
+                </h4>
+                <h4>
+                    <a class="facebook" href="#">Facebook</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+    <!--================ Left Area =================-->
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+            <div class="main_menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <a class="navbar-brand logo_h" href="helloworld.htm"><img src="img/logo1.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other conten for toggling -->
+                        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav menu_nav justify-content-center">
+                                <li class="nav-item active"><a class="nav-link" href="helloworld.htm">Home</a></li> 
+                                <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Persona</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="personaCrear.htm">Crear</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="personaConsultar.htm">Consultar</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="personaEditar.htm">Editar</a></li>
+                                        </ul>
+                                    </li>
+                               <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vehiculos</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="vehiculoCrear.htm">Crear</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="vehiculoConsultar.htm">Consultar</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="vehiculoEditar.htm">Editar</a></li>
+                                        </ul>
+                                    </li>
+                                <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venta</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="ventaCrear.htm">Crear</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="ventaConsultar.htm">Consultar</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="ventaEditar.htm">Editar</a></li>
+                                        </ul>
+                                    </li>
+                                <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garantia</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="garantiaCrear.htm">Crear</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="garantiaConsultar.htm">Consultar</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="garantiaEditar.htm">Editar</a></li>
+                                        </ul>
+                                    </li>  
+                                <li class="nav-item"><a class="nav-link" href="project.html">Catalogo</a>
+              
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="call-us"><a href=""><i class="ti-headphone-alt"></i>vehialpes@vehialpes.com</a></li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </nav>
+                </div>
+            </header>
+                <!--================Header Menu Area =================-->
+
+<!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+          <div
+            class="banner_content d-md-flex justify-content-between align-items-center"
+          >
+            <div class="mb-3 mb-md-0">
+              <h2>Consultar Persona</h2>
+            </div>
+            <div class="page_link">
+              <a href="helloworld.htm">Home</a>
+              <a href="personaConsultar.htm">Consultar Persona</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+
+
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Consultar Persona</h2>
+                </div>
+                <div class="registration">
 		<div class="container">
 			<div class="signin-form profile">
 				<h3>:: Consultar ::</h3>
@@ -160,97 +185,83 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>                        
 		</div>
 	</div>
-	<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="agile-footer-grids">
-				<div class="col-md-4 agile-footer-grid">
-					<h4>History of <span>Hosting</span></h4>
-					<p>Pellentesque urna ex, ultricies a nunc at, pretium maximus nisi. Vestibulum non auctor diam. Mauris eget consectetur mauris. <span>Aenean leo elit, accumsan vel elit vitae, mattis ultricies lacus. Cras consectetur justo lorem, sed dictum sapien eleifend at.</span></p>
-				</div>
-				<div class="col-md-4 agile-footer-grid">
-					<h4>Twitter <span>Posts</span></h4>
-					<ul class="w3agile_footer_grid_list">
-						<li>Ut aut reiciendis voluptatibus maiores <a href="#">http://example.com</a> alias, ut aut reiciendis.
-							<span><i class="fa fa-twitter" aria-hidden="true"></i> 02 days ago</span></li>
-						<li>Itaque earum rerum hic tenetur a sapiente delectus <a href="#">http://example.com</a> ut aut
-							voluptatibus.<span><i class="fa fa-twitter" aria-hidden="true"></i> 03 days ago</span></li>
-					</ul>
-				</div>
-				<div class="col-md-4 agile-footer-grid">
-					<h4>Popular <span>Posts</span></h4>
-					<div class="popular-grids">
-						<div class="popular-grid">
-							<a href="#"><img src="images/6.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/7.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/8.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/9.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="popular-grids agileits-w3layouts-popular">
-						<div class="popular-grid">
-							<a href="#"><img src="images/10.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/4.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/6.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/7.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="popular-grids">
-						<div class="popular-grid">
-							<a href="#"><img src="images/8.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/9.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/10.jpg" alt=""></a>
-						</div>
-						<div class="popular-grid">
-							<a href="#"><img src="images/4.jpg" alt=""></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="copyright">
-			<p>© 2016 Hosting City. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
-		</div>
-	</div>
-	<!-- //footer -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-	<!-- //here ends scrolling icon -->
-</body>	
+            </div>
+    <!-- ================ start footer Area ================= -->
+    <footer class="footer-area">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-sm-6 mb-4 mb-xl-0 single-footer-widget">
+                    <h4>Nuestros vehiculos</h4>
+                    <ul>
+                        <li><a href="#">Lujosos</a></li>
+                        <li><a href="#">Economicos</a></li>
+                        <li><a href="#">Nuevos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-8 mb-4 mb-xl-0 single-footer-widget">
+                    <h4>Envianos tu correo</h4>
+                    <p>Enterate de todas nuestras promociones</p>
+
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                        method="get">
+                        <div class="input-group">
+                            <input type="email" class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '">
+                            <div class="input-group-append">
+                                <button class="btn click-btn" type="submit">
+                                    <img src="img/elements/arrow-2.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: -5000px;">
+                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                        </div>
+
+                        <div class="info"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="footer-bottom row align-items-center text-center text-lg-left">
+        <p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+            <a href="#"><i class="ti-facebook"></i></a>
+            <a href="#"><i class="ti-twitter-alt"></i></a>
+            <a href="#"><i class="ti-dribbble"></i></a>
+            <a href="#"><i class="ti-linkedin"></i></a>
+        </div>
+    </div>
+</div>
+</footer>
+<!-- ================ End footer Area ================= -->
+
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+</body>
 </html>
